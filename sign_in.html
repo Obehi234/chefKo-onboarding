@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <title>ChefKo Login Page</title>
+</head>
+
+<body>
+
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1 class="libre-baskerville-bold">Create Account</h1>
+                <div></div>
+    
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button class=".nunito-regular">Sign Up</button>
+                <small class="poppins-tiny" style="font-size: 10px; color: #a7a7a7;">By signing up, you agree to our Terms and Conditions and Privacy Policy.</small>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1 class="libre-baskerville-bold">Sign In</h1>
+                
+                
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <a href="#">Forget Your Password?</a>
+                <button class=".nunito-regular">Sign In</button>
+            </form>
+        </div>
+        <div class="toggle-container .libre-baskerville-bold ">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                   <img src="images/PNG/food.svg" alt="ChefKo Logo" width="300px" height="300px">
+                   <h2 class="libre-baskerville-bold">Welcome to ChefKo!</h2>
+                   <p class="nunito-regular">Let's help you manage your menus, assign food pickups, and keep track of your dietary needs.</p>
+                    
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1 class="libre-baskerville-bold">Welcome Back!</h1>
+                    <br>
+                    <h4 class="nunito-regular">Please enter your details to use ChefKo</h4>
+                    <button class="hidden .nunito-regular" id="register">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
